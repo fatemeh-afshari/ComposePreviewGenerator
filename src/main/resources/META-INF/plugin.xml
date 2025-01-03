@@ -1,0 +1,36 @@
+<idea-plugin>
+    <id>taxi.tap30.compose.preview.ComposePreviewGenerator</id>
+
+    <name>ComposePreviewGenerator</name>
+
+    <vendor email="fatemeh.afshari@tapsi.tech" url="https://www.tapsi.ir">Fatemeh Afshari</vendor>
+
+    <description>
+        A plugin that helps developers to generate @Composable functions preview codes. You can generate your compose component preview by right-click on @Composable function and select GeneratePreview or GenerateInteractivePreview.
+    </description>
+
+    <depends>org.jetbrains.kotlin</depends>
+    <depends>com.intellij.modules.platform</depends>
+    <extensions defaultExtensionNs="com.intellij">
+        <applicationService serviceImplementation="taxi.tap30.compose.preview.composepreviewgenerator.setting.AppSettingsState"/>
+        <applicationConfigurable instance="taxi.tap30.compose.preview.composepreviewgenerator.setting.AppSettingsConfigurable" displayName = "ComposePreviewGeneratorSetting"/>
+    </extensions>
+
+    <actions>
+        <action id="GeneratePreview" class="taxi.tap30.compose.preview.composepreviewgenerator.GeneratePreview"
+                text="Generate compose preview" description="Generate compose preview">
+            <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+        </action>
+
+
+        <action id="GenerateInteractivePreview" class="taxi.tap30.compose.preview.composepreviewgenerator.GenerateInteractivePreview"
+                text="Generate interactive compose preview" description="Generate interactive compose preview">
+            <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+        </action>
+    </actions>
+    <project-components>
+        <component>
+            <implementation-class>taxi.tap30.compose.preview.composepreviewgenerator.setting.MyPluginProjectComponent</implementation-class>
+        </component>
+    </project-components>
+</idea-plugin>

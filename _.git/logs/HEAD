@@ -1,0 +1,17 @@
+0000000000000000000000000000000000000000 39a437ed862238c28b5cc8a7cf0927c2332ffdc6 Fateme Afshari <fateme.afshari1374@gmail.com> 1731405240 +0330	clone: from https://tartarus.tapsi.tech/android-team/compose-preview-generator.git
+39a437ed862238c28b5cc8a7cf0927c2332ffdc6 cd1051b6524da221410c36297c85ca872415fccc Fateme Afshari <fateme.afshari1374@gmail.com> 1731423954 +0330	commit: Add getNonPrimitiveTypeValues for enum classes.
+cd1051b6524da221410c36297c85ca872415fccc dd9949520d6ce4163afdb119974a358f84a57d92 Fateme Afshari <fateme.afshari1374@gmail.com> 1733668147 +0330	merge origin/main: Fast-forward
+dd9949520d6ce4163afdb119974a358f84a57d92 860605e2ea7eab9348314cb3ab13e3fa8dfad8e9 Fateme Afshari <fateme.afshari1374@gmail.com> 1733669365 +0330	commit: Add unknown type.
+860605e2ea7eab9348314cb3ab13e3fa8dfad8e9 1b4cfc95d8e38a0dbae681a96cdf6a6c0dfa6da0 Fateme Afshari <fateme.afshari1374@gmail.com> 1733670832 +0330	commit: Add function type.
+1b4cfc95d8e38a0dbae681a96cdf6a6c0dfa6da0 aa5a39b1c46136b6f42ac1908aabb103f1873ca5 Fateme Afshari <fateme.afshari1374@gmail.com> 1733673369 +0330	commit: Fix setting.
+aa5a39b1c46136b6f42ac1908aabb103f1873ca5 edc8605b1c2d1323d6bfc97c008e725ec47b94d3 Fateme Afshari <fateme.afshari1374@gmail.com> 1733674582 +0330	commit: Add color type.
+edc8605b1c2d1323d6bfc97c008e725ec47b94d3 ed00e984d9aa50c384c7fb15ca5cdbff203708f7 Fateme Afshari <fateme.afshari1374@gmail.com> 1733678960 +0330	commit: Remove ? from types.
+ed00e984d9aa50c384c7fb15ca5cdbff203708f7 2e4983484f90388d3be97478a6a063130af76886 Fateme Afshari <fateme.afshari1374@gmail.com> 1733679337 +0330	commit: Remove ? from types.
+2e4983484f90388d3be97478a6a063130af76886 8db3bd719bbbf446634dc3dadac21a976bf95688 Fateme Afshari <fateme.afshari1374@gmail.com> 1733682391 +0330	commit: Fix list inside data class.
+8db3bd719bbbf446634dc3dadac21a976bf95688 c2569c426337d04436e8047deec3c7a2bd9a0c81 Fateme Afshari <fateme.afshari1374@gmail.com> 1733683161 +0330	commit: Complete plugin descriptions.
+c2569c426337d04436e8047deec3c7a2bd9a0c81 e8cb8d6150af679a1b7488d216e2356fa5a1407e Fateme Afshari <fateme.afshari1374@gmail.com> 1733684485 +0330	commit: make dialog scrollable.
+e8cb8d6150af679a1b7488d216e2356fa5a1407e d762b878090cd485485458954ef89a67f755f35c Fateme Afshari <fateme.afshari1374@gmail.com> 1733688214 +0330	commit: Fix some issues.
+d762b878090cd485485458954ef89a67f755f35c 8933894dad7124b1f1a1d95e78de392df716f274 Fateme Afshari <fateme.afshari1374@gmail.com> 1735898330 +0330	merge origin/main: Fast-forward
+8933894dad7124b1f1a1d95e78de392df716f274 9331ecfbf6ce5b14eb96e6fb06c94d73deab68aa Fateme Afshari <fateme.afshari1374@gmail.com> 1735898384 +0330	checkout: moving from main to add-interactive-UI-for-preview
+9331ecfbf6ce5b14eb96e6fb06c94d73deab68aa 4d0e14143300d6e59a8419995f33c58b8ba0360b Fateme Afshari <fateme.afshari1374@gmail.com> 1735907494 +0330	commit: Add startup dialog.
+4d0e14143300d6e59a8419995f33c58b8ba0360b d7fb4257364662e50fb2b736413ced4b20d4f917 Fateme Afshari <fateme.afshari1374@gmail.com> 1735912763 +0330	commit: Complete startup dialogs.
